@@ -60,5 +60,5 @@ const patchRequest = (payload) => new Promise((resolve, reject) => {
 // 6. OPTIONAL: Do you see an opportunity to create a utility function for your promise calls?
 
 export {
-  getRequest, postRequest, patchRequest, deleteRequest
+  getRequest, postRequest, patchRequest, deleteRequest, jokeEndpoint
 };
